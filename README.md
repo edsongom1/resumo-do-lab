@@ -37,6 +37,7 @@ Este guia explica como criar uma máquina virtual básica no **Microsoft Azure**
 
 3. **Crie uma nova VM**
    - Clique em **Criar** → **Máquina virtual do Azure**.
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/8a225c37-14d7-4752-954d-95c0a91c2b9a" />
 
 4. **Configure os detalhes básicos**
    - **Nome da VM:** por exemplo, `myVM`
