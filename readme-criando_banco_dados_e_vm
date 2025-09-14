@@ -66,4 +66,31 @@ Etapas:
  ┣ 📂 images
  ┃ ┣ tela 01 - azure.jpg
  ┃ ┣ tela 02 - criar maquina virtual.jpg
- ┃ ┣ tela
+ ┃ ┣ tela 03 - vm.jpg
+ ┃ ┣ tela 04 - vm criar.jpg
+ ┃ ┣ tela 05 vm valor.jpg
+ ┃ ┣ tela 06 vm valor 2.jpg
+ ┃ ┣ tela 07 -vm discos.jpg
+ ┃ ┣ tela 08 - vm monitoramento.jpg
+ ┃ ┗ tela 09 - criar banco de dadis.jpg
+ ┣ 📜 README.md
+```
+
+---
+
+## ✅ Resultados  
+✔️ VM criada com sucesso  
+✔️ Banco de Dados SQL configurado  
+✔️ Documentação completa publicada no GitHub  
+
+---
+
+## 👨‍💻 Autor  
+Projeto desenvolvido por **Edson Gomes** para o **Desafio de Projeto DIO - Microsoft Azure**.  
+
+🔗 [LinkedIn](https://www.linkedin.com) | [GitHub](https://github.com/edsongom1)  
+
+---
+
+## 📜 Licença  
+Este projeto está sob a licença [MIT](https://opensource.org/licenses/MIT).  
