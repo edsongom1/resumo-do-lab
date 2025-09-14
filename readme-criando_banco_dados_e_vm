@@ -1,0 +1,59 @@
+# 🚀 Desafio DIO - Criando Máquinas Virtuais e Banco de Dados no Azure  
+
+## 📖 Descrição do Projeto  
+Este repositório contém os registros, anotações e prints de tela referentes ao laboratório de **configuração de Máquinas Virtuais e Banco de Dados SQL no Microsoft Azure**.  
+
+O objetivo é aplicar na prática os conceitos vistos em aula, utilizando a plataforma Azure para provisionar recursos e documentando o processo de forma clara.  
+
+---
+
+## 🎯 Objetivos de Aprendizagem  
+Ao concluir este desafio, você será capaz de:  
+- Criar e configurar Máquinas Virtuais no Azure;  
+- Configurar um Banco de Dados SQL no Azure;  
+- Documentar processos técnicos de forma estruturada;  
+- Utilizar o GitHub como ferramenta para compartilhar documentação técnica.  
+
+---
+
+## 🛠️ Passo a Passo  
+
+### 1️⃣ Criando uma Máquina Virtual no Azure  
+
+1. Acesse o portal do Azure.  
+2. No menu lateral, clique em **Máquinas Virtuais** → **Criar**.  
+3. Configure os seguintes parâmetros:  
+   - **Nome da VM**: definido pelo usuário.  
+   - **Região**: (US) East US.  
+   - **Imagem**: Windows Server 2019 Datacenter.  
+   - **Tamanho**: Standard_DS1_v2 (1 vCPU, 3.5 GiB RAM).  
+   - **Disco do SO**: SSD Premium.  
+   - **Monitoramento**: habilitado com conta de armazenamento gerenciada.  
+
+📸 Etapas documentadas:  
+![Tela 01 - Azure](./images/tela%2001%20-%20azure.jpg)  
+![Tela 02 - Criar Máquina Virtual](./images/tela%2002%20-%20criar%20maquina%20virtual.jpg)  
+![Tela 03 - VM](./images/tela%2003%20-%20vm.jpg)  
+![Tela 04 - Criar VM](./images/tela%2004%20-%20vm%20criar.jpg)  
+![Tela 05 - Valor VM](./images/tela%2005%20vm%20valor.jpg)  
+![Tela 06 - Valor VM 2](./images/tela%2006%20vm%20valor%202.jpg)  
+![Tela 07 - Discos VM](./images/tela%2007%20-vm%20discos.jpg)  
+![Tela 08 - Monitoramento VM](./images/tela%2008%20-%20vm%20monitoramento.jpg)  
+
+---
+
+### 2️⃣ Configurando o Banco de Dados SQL no Azure  
+
+1. Acesse o portal do Azure.  
+2. No menu lateral, clique em **Bancos de Dados SQL**.  
+3. Crie um novo banco de dados, definindo:  
+   - Nome do banco.  
+   - Servidor lógico associado.  
+   - Definições de desempenho conforme plano escolhido.  
+
+📸 Etapa documentada:  
+![Tela 09 - Criar Banco de Dados](./images/tela%2009%20-%20criar%20banco%20de%20dadis.jpg)  
+
+---
+
+## 📂 Estrutura do Repositório  
