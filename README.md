@@ -200,7 +200,9 @@ O armazenamento no Azure é um dos pilares da nuvem, permitindo guardar e acessa
 
 - **LRS (Locally Redundant Storage):** 3 cópias no mesmo datacenter.  
 - **ZRS (Zone-Redundant Storage):** cópias em zonas diferentes dentro da mesma região. 
-no DIO é tratado somentee os dois acima, o conteudo abaixo li no manua oficial microsoft 
+
+---
+No DIO neste treinamento é tratado somentee os dois acima, o conteudo abaixo li no manua oficial microsoft 
 - **GRS (Geo-Redundant Storage):** cópias em regiões geograficamente distantes.  
 - **RA-GRS (Read-Access Geo-Redundant):** igual ao GRS, mas permite leitura no local secundário.  
 
