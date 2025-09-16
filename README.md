@@ -268,3 +268,84 @@ O questionário me ajudou a fixar:
 📘 **Este README é meu guia de estudos sobre Armazenamento no Azure.**  
 Ele resume os principais pontos para revisão rápida e prática antes da prova da **AZ-900** da [DIO.me](https://www.dio.me).  
 
+# ⚙️ Configurando Recursos e Dimensionamentos em Máquinas Virtuais na Azure  
+
+Este README é um resumo prático sobre **como configurar recursos e dimensionamentos em Máquinas Virtuais (VMs) no Azure**.  
+O objetivo é revisar os principais conceitos cobrados na **AZ-900**, de forma direta e organizada.  
+
+---
+
+## 📌 Introdução  
+
+As Máquinas Virtuais (VMs) no Azure permitem rodar sistemas operacionais e aplicações de forma escalável na nuvem.  
+Você pode ajustar recursos de acordo com a **necessidade de performance, custo e disponibilidade**.  
+
+---
+
+## 🖥️ Recursos de uma VM no Azure  
+
+Ao criar uma VM, você pode configurar:  
+
+- **Região** 🌍 → Define em qual datacenter sua VM ficará hospedada.  
+- **Tamanho da VM** 📏 → Combinação de CPU, memória e capacidade de rede.  
+- **Armazenamento** 💾 → Discos do SO e discos de dados (Standard HDD, Standard SSD ou Premium SSD).  
+- **Rede** 🌐 → Conexões via IP público, VNet e regras de firewall.  
+- **Sistema Operacional** 🖥️ → Windows, Linux ou imagens personalizadas.  
+
+---
+
+## ⚡ Dimensionamento de VMs  
+
+O dimensionamento permite ajustar as VMs para melhor uso de recursos.  
+
+### 🔹 Tipos de Dimensionamento  
+- **Vertical (Scale Up/Down):**  
+  Aumentar ou reduzir recursos (ex: trocar de uma VM B1s para D2s_v3).  
+
+- **Horizontal (Scale Out/In):**  
+  Adicionar ou remover instâncias de VM automaticamente com **Virtual Machine Scale Sets (VMSS)**.  
+
+---
+
+## 📊 Séries de VMs  
+
+Cada série foi projetada para cenários específicos:  
+
+- **B-Series:** Econômicas, workloads leves, dev/teste.  
+- **D-Series:** Balanceadas, boas para aplicações de uso geral.  
+- **E-Series:** Otimizadas para memória, bancos de dados.  
+- **F-Series:** Otimizadas para CPU, processamento intenso.  
+- **N-Series:** Projetadas para GPU, machine learning e gráficos avançados.  
+
+---
+
+## 🛠️ Opções de Alta Disponibilidade  
+
+- **Availability Sets:** Distribui VMs em domínios de falha e atualização dentro de um datacenter.  
+- **Availability Zones:** VMs em zonas físicas distintas dentro da mesma região.  
+- **VM Scale Sets:** Gerenciamento automático de várias VMs para carga variável.  
+
+---
+
+## 💡 Boas Práticas  
+
+- Escolher série/tamanho de VM de acordo com o workload.  
+- Usar **Azure Advisor** para recomendações de custo e performance.  
+- Configurar **autoescala** para cargas variáveis.  
+- Monitorar com **Azure Monitor e Log Analytics**.  
+- Sempre considerar **alta disponibilidade** em produção.  
+
+---
+
+## 📝 Revisão Rápida  
+
+- **Recursos configuráveis:** Região, tamanho, SO, disco, rede.  
+- **Dimensionamento:** Vertical (scale up/down) e Horizontal (scale sets).  
+- **Séries:** B (econômicas), D (geral), E (memória), F (CPU), N (GPU).  
+- **Disponibilidade:** Availability Sets, Zones, Scale Sets.  
+
+---
+
+📘 **Este README é um guia de estudos sobre Configuração e Dimensionamento de VMs no Azure.**  
+Ele resume os pontos-chave para revisão rápida e prática antes da prova da **AZ-900**.
+
