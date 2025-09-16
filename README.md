@@ -181,7 +181,6 @@ Se este guia foi útil para você, sinta-se livre para:
 - 💬 Enviar sugestões e feedback
 
 ---
-```markdown
 # 💾 Resumo de Aprendizado: Armazenamento no Azure  
 
 Este é meu resumo do conteúdo de **Armazenamento no Azure**, com base nas aulas e exercícios realizados no módulo.  
@@ -265,5 +264,4 @@ O questionário me ajudou a fixar:
 
 📘 **Este README é meu guia de estudos sobre Armazenamento no Azure.**  
 Ele resume os principais pontos para revisão rápida e prática antes da prova da **AZ-900** da [DIO.me](https://www.dio.me).  
-```
 
