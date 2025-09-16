@@ -1,1 +1,84 @@
+# 💾 Resumo de Aprendizado: Armazenamento no Azure  
+
+Este é meu resumo do conteúdo de **Armazenamento no Azure**, com base nas aulas e exercícios realizados no módulo.  
+Aqui organizei os principais pontos que aprendi, de forma prática e direta, para ajudar na revisão para a **AZ-900**.  
+
+---
+
+## 📌 Introdução  
+O armazenamento no Azure é um dos pilares da nuvem, permitindo guardar e acessar dados de forma escalável, segura e altamente disponível.  
+É usado tanto para aplicações corporativas quanto para dados pessoais, sempre com foco em **performance, redundância e custo**.  
+
+---
+
+## 🔄 Redundância e Serviços de Armazenamento  
+
+**Redundância** é essencial para manter os dados seguros e disponíveis, mesmo em falhas de hardware ou datacenters.  
+
+- **LRS (Locally Redundant Storage):** 3 cópias no mesmo datacenter.  
+- **ZRS (Zone-Redundant Storage):** cópias em zonas diferentes dentro da mesma região.  
+- **GRS (Geo-Redundant Storage):** cópias em regiões geograficamente distantes.  
+- **RA-GRS (Read-Access Geo-Redundant):** igual ao GRS, mas permite leitura no local secundário.  
+
+**Serviços de Armazenamento:**  
+- **Blob Storage:** grandes volumes de dados não estruturados (imagens, vídeos, logs).  
+- **File Storage:** compartilhamento de arquivos via SMB (como um servidor de arquivos).  
+- **Queue Storage:** mensagens para comunicação entre componentes de sistemas distribuídos.  
+- **Table Storage:** armazenamento NoSQL, rápido e simples.  
+
+---
+
+## 🌍 Pontos de Extremidade Públicos e Camadas de Acesso  
+
+Cada serviço de armazenamento possui um **endpoint público**  
+(exemplo: `https://nomedaconta.blob.core.windows.net`).  
+
+Podemos restringir acessos por **rede ou identidade** para maior segurança.  
+
+**Camadas de acesso (tiers):**  
+- **Hot:** acesso frequente, maior custo de armazenamento, menor custo de leitura.  
+- **Cool:** acesso esporádico, custo de armazenamento menor, mas leitura mais cara.  
+- **Archive:** longo prazo, custo baixíssimo, mas precisa reidratar antes de ler.  
+
+---
+
+## 🚀 Migrações para o Azure  
+
+Ferramentas que ajudam empresas a migrar dados locais para o Azure:  
+- **Azure Migrate →** análise, avaliação e execução da migração.  
+- **Data Box →** dispositivo físico enviado pela Microsoft para transferir grandes volumes de dados com segurança.  
+- **Storage Migration Service →** migração de servidores de arquivos.  
+
+---
+
+## 📂 Opções de Gerenciamento de Arquivos  
+
+- **Azure Files:** SMB/NFS para compartilhamento de arquivos, ideal para lift-and-shift.  
+- **Azure File Sync:** sincroniza arquivos locais com o Azure, mantendo cache no servidor local.  
+- **Blob Storage:** usado como repositório central, acessível por APIs, SDKs e Azure Storage Explorer.  
+
+---
+
+## 📝 Revisão Rápida  
+
+- **Redundância:** LRS, ZRS, GRS, RA-GRS.  
+- **Serviços:** Blob, Files, Queue, Table.  
+- **Camadas:** Hot, Cool, Archive.  
+- **Migração:** Azure Migrate, Data Box, File Sync.  
+- **Endpoints:** cada recurso tem um endereço público, com controle de segurança.  
+
+---
+
+## ❓ Questionário: Armazenamento do Azure  
+
+O questionário me ajudou a fixar:  
+- Diferença entre camadas de acesso.  
+- Escolha da redundância correta para cada cenário.  
+- Quando usar Blob, Files, Queues e Tables.  
+- Opções de migração mais adequadas.  
+
+---
+
+📘 **Este README é meu guia de estudos sobre Armazenamento no Azure.**  
+Ele resume os principais pontos para revisão rápida e prática antes da prova da **AZ-900** da [DIO.me](https://www.dio.me).  
 
