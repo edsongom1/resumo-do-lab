@@ -268,7 +268,7 @@ O questionário me ajudou a fixar:
 📘 **Este README é meu guia de estudos sobre Armazenamento no Azure.**  
 Ele resume os principais pontos para revisão rápida e prática antes da prova da **AZ-900** da [DIO.me](https://www.dio.me).  
 
-# ⚙️ Configurando Recursos e Dimensionamentos em Máquinas Virtuais na Azure  
+# Configurando Recursos e Dimensionamentos em Máquinas Virtuais na Azure  
 
 Este README é um resumo prático sobre **como configurar recursos e dimensionamentos em Máquinas Virtuais (VMs) no Azure**.  
 O objetivo é revisar os principais conceitos cobrados na **AZ-900**, de forma direta e organizada.  
