@@ -426,6 +426,89 @@ Imagine que você tem **10 VMs locais** rodando em seu datacenter. Você pode:
 ---
 
 > 💡 **Dica:** Combine as duas calculadoras para criar um **business case completo** — mostre a economia no longo prazo com o TCO e o custo mensal com a Calculadora de Preço.
+>
+> # 🔐 Gerenciando Políticas de Acesso no Azure e Portal de Confiança da Microsoft  
+
+Este guia apresenta os conceitos, ferramentas e boas práticas para **gerenciar políticas de acesso no Azure**, utilizar o **Portal de Confiança da Microsoft** e garantir **conformidade regulatória** no ambiente de nuvem.  
+
+---
+
+## 📌 Introdução  
+
+Gerenciar políticas de acesso no Azure é um passo essencial para garantir **segurança**, **governança** e **conformidade** na nuvem.  
+O **Azure Entra ID** (antigo Azure Active Directory) é o ponto central para administrar identidades e controlar quem tem acesso a quais recursos.  
+
+Além disso, a Microsoft disponibiliza o **[Portal de Confiança da Microsoft](https://servicetrust.microsoft.com/)**, que fornece informações detalhadas sobre **compliance**, **auditorias**, **certificações** e boas práticas de segurança utilizadas na nuvem da Microsoft.  
+
+---
+
+## 🛡️ Gerenciamento de Políticas de Acesso  
+
+### 🔑 Tipos de Políticas no Azure  
+| Tipo de Política | Descrição | Onde Configurar |
+|------------------|-----------|-----------------|
+| **Políticas de Acesso Condicional** | Controlam o acesso com base em condições (localização, dispositivo, risco de login). | [Acesso Condicional no Entra ID](https://learn.microsoft.com/azure/active-directory/conditional-access/overview) |
+| **Políticas de Expiração de Senha** | Definem periodicidade de troca de senha e complexidade mínima. | Entra ID → Segurança → Autenticação |
+| **Políticas de MFA (Autenticação Multifator)** | Requer autenticação em duas etapas para usuários e administradores. | Entra ID → Segurança → MFA |
+| **RBAC (Controle de Acesso Baseado em Função)** | Concede permissões específicas para grupos e usuários com base em funções. | [RBAC no Azure](https://learn.microsoft.com/azure/role-based-access-control/overview) |
+
+---
+
+## 🔎 Portal de Confiança da Microsoft  
+
+O **[Microsoft Service Trust Portal](https://servicetrust.microsoft.com/)** é um repositório central para:  
+
+- 📜 **Documentação de Compliance:** ISO, SOC, GDPR, LGPD e outras certificações.  
+- 🔍 **Relatórios de Auditoria:** Provas de conformidade e avaliações independentes.  
+- 📊 **Guias de Boas Práticas:** Configurações recomendadas para segurança e governança.  
+- 🛡️ **Whitepapers de Segurança:** Estudos detalhados sobre proteção de dados e continuidade de negócios.  
+
+---
+
+## ✅ Conformidade e Monitoramento  
+
+No **Azure**, você pode monitorar a conformidade utilizando:  
+
+- **[Microsoft Purview Compliance Manager](https://learn.microsoft.com/microsoft-365/compliance/compliance-manager-overview):** Avaliação de riscos e score de compliance.  
+- **[Defender for Cloud](https://learn.microsoft.com/azure/defender-for-cloud/):** Recomendação de melhorias de segurança e postura.  
+- **[Azure Policy](https://learn.microsoft.com/azure/governance/policy/overview):** Criação de regras para garantir que todos os recursos sigam os padrões definidos.  
+
+---
+
+## 💡 Caso Real – Empresa de Finanças Migrando para Azure  
+
+> **Cenário:**  
+> Uma fintech precisava garantir que apenas funcionários autorizados pudessem acessar dados financeiros sensíveis de qualquer lugar do mundo.  
+
+**Solução aplicada:**  
+- Implementação de **Acesso Condicional** exigindo **MFA** para todos os acessos externos.  
+- Definição de política que bloqueia logins vindos de países onde a empresa não opera.  
+- Uso do **Azure Policy** para obrigar que todas as máquinas virtuais tenham criptografia habilitada.  
+- Auditoria contínua com o **Compliance Manager** para manter aderência às exigências da LGPD.  
+
+**Resultado:**  
+- 🔒 Redução de 90% em tentativas de acesso não autorizado.  
+- 📈 Conformidade com ISO 27001 e PCI-DSS em auditoria externa.  
+- 💰 Evitou riscos regulatórios que poderiam gerar multas milionárias.  
+
+---
+
+## 📚 Recursos Úteis  
+
+- 🔗 [Portal de Confiança da Microsoft](https://servicetrust.microsoft.com/)  
+- 📖 [Documentação do Acesso Condicional](https://learn.microsoft.com/azure/active-directory/conditional-access/overview)  
+- 🛡️ [Visão Geral do Azure Policy](https://learn.microsoft.com/azure/governance/policy/overview)  
+- ✅ [Compliance Manager – Microsoft Purview](https://learn.microsoft.com/microsoft-365/compliance/compliance-manager-overview)  
+
+---
+
+## 📌 Conclusão  
+
+Gerenciar políticas de acesso e usar o Portal de Confiança é fundamental para manter a **segurança**, **conformidade regulatória** e **governança corporativa** no Azure.  
+Seguindo boas práticas, como MFA, RBAC e políticas de compliance, é possível reduzir riscos e melhorar a postura de segurança da sua organização.
+
+---
+
 
 
 📘 **Este README é um guia de estudos sobre Configuração e Dimensionamento de VMs no Azure.**  
