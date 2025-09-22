@@ -369,6 +369,65 @@ Boas práticas: ativar MFA, usar princípio de privilégio mínimo, monitorar ev
 
 Em resumo, Segurança e Identidade na Azure fornecem uma base confiável para proteger recursos na nuvem, garantindo que apenas os usuários corretos tenham acesso aos dados corretos, no momento certo.
 
+# 💰 Otimização de Custos no Microsoft Azure e Uso das Calculadoras
+
+A **otimização de custos no Azure** é um dos pilares de uma boa estratégia de nuvem. Planejar corretamente garante que você pague apenas pelo que realmente utiliza e evita surpresas na fatura.
+
+## 🚀 Práticas de Otimização de Custos
+
+- **Dimensionamento Correto (Right-Sizing):** Ajuste de VMs, bancos de dados e serviços para o tamanho ideal de uso.
+- **Instâncias Reservadas e Savings Plans:** Reduzem custos de cargas previsíveis ao contratar 1 ou 3 anos de uso antecipadamente.
+- **Spot Instances:** Usar VMs com preço reduzido para workloads tolerantes a interrupção.
+- **Monitoramento de Custos:** Utilizar **Azure Cost Management + Billing** para acompanhar gastos em tempo real.
+- **Desligamento Automático:** Programar VMs de teste/dev para desligarem fora do horário comercial.
+
+---
+
+## 🧮 Calculadoras do Azure
+
+A Microsoft disponibiliza **duas ferramentas diferentes** para planejamento financeiro:
+
+### 🔢 1. Calculadora de Custo do Azure (Pricing Calculator)
+
+🔗 [Acesse aqui](https://azure.microsoft.com/pricing/calculator/)
+
+- Ideal para quem está **planejando novos projetos** na nuvem.
+- Permite **selecionar recursos** (VMs, banco de dados, redes, etc.), escolher **região**, **quantidade** e **tempo de uso**.
+- Gera **estimativa de custo mensal**, ajudando a prever quanto você pagará mês a mês.
+
+---
+
+### 📊 2. Calculadora de TCO (Total Cost of Ownership)
+
+🔗 [Acesse aqui](https://azure.microsoft.com/pricing/tco-calculator/)
+
+- Ideal para quem quer **comparar ambiente local vs. nuvem**.
+- Analisa custos de hardware, energia, rede, pessoal e manutenção que você tem hoje no on-premises.
+- Mostra **economia potencial** com a migração para Azure ao longo de 1, 3 ou 5 anos.
+
+---
+
+## 🆚 Quando Usar Cada Uma
+
+| Cenário | Ferramenta Recomendada |
+|--------|----------------------|
+| Você tem um ambiente **on-premises** e quer avaliar se vale a pena migrar | **Calculadora de TCO** |
+| Você já decidiu ir para a nuvem e quer saber quanto gastará **mensalmente** | **Calculadora de Custos (Pricing Calculator)** |
+
+---
+
+## 📌 Exemplo Prático
+
+Imagine que você tem **10 VMs locais** rodando em seu datacenter. Você pode:
+
+1. Inserir essas VMs na **Calculadora de TCO** para ver quanto economizaria na nuvem em 3 anos.
+2. Usar a **Pricing Calculator** para escolher o tipo de VM no Azure, adicionar disco, rede, backup e obter uma **estimativa mensal detalhada**.
+
+---
+
+> 💡 **Dica:** Combine as duas calculadoras para criar um **business case completo** — mostre a economia no longo prazo com o TCO e o custo mensal com a Calculadora de Preço.
+
+
 📘 **Este README é um guia de estudos sobre Configuração e Dimensionamento de VMs no Azure.**  
 Ele resume os pontos-chave para revisão rápida e prática antes da prova da **AZ-900**.
 
