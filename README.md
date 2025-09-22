@@ -345,6 +345,29 @@ Cada série foi projetada para cenários específicos:
 - **Disponibilidade:** Availability Sets, Zones, Scale Sets.  
 
 ---
+## 💡 Segurança e Identidade na Microsoft Azure
+
+A segurança baseada em identidade é o núcleo da proteção na nuvem Microsoft Azure. O Azure Entra ID (antigo Azure AD) é o serviço que gerencia usuários, grupos, dispositivos e aplicativos, oferecendo:
+
+Autenticação e Autorização – Controle de logins e permissões.
+
+MFA e SSO – Autenticação multifator e login único para apps.
+
+Gestão de Dispositivos e Aplicativos – Integração segura com apps internos e SaaS.
+
+A segurança é reforçada por:
+
+Acesso Condicional – Políticas dinâmicas de login baseadas em risco.
+
+Identity Protection – Detecção de logins suspeitos e resposta automatizada.
+
+Governança de Identidade – Revisões de acesso, pacotes de permissões e PIM (acesso administrativo just-in-time).
+
+Outras camadas incluem RBAC (controle de acesso por função), Key Vault (proteção de segredos) e Defender for Cloud (monitoramento de vulnerabilidades).
+
+Boas práticas: ativar MFA, usar princípio de privilégio mínimo, monitorar eventos e automatizar provisionamento/desprovisionamento de acessos.
+
+Em resumo, Segurança e Identidade na Azure fornecem uma base confiável para proteger recursos na nuvem, garantindo que apenas os usuários corretos tenham acesso aos dados corretos, no momento certo.
 
 📘 **Este README é um guia de estudos sobre Configuração e Dimensionamento de VMs no Azure.**  
 Ele resume os pontos-chave para revisão rápida e prática antes da prova da **AZ-900**.
