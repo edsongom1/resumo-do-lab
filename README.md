@@ -732,6 +732,6 @@ Esses serviços, quando usados em conjunto, entregam **segurança, performance e
 
 
 
-📘 **Este README é um guia de estudos sobre Configuração e Dimensionamento de VMs no Azure.**  
+📘 **Este README é um guia de estudos sobre Introdução aos Conceitos Básicos Azure - AZ-900  intrutora: Valéria Baptista.**  
 Ele resume os pontos-chave para revisão rápida e prática antes da prova da **AZ-900**.
 
